@@ -11,7 +11,8 @@
   float: left;
   width: 25%;
   padding-right: 0px;
-  border: 3px solid #6d7a87;
+  border: 3px solid #6d7a87; /* note15: added a border */
+  max-width: 150px; /* note14: made the width set to close the gap */
 }
 .right-column{
     width: 75%;
@@ -25,6 +26,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 15px;
+  color: #303031; /* note13: changed text color */
 
 }
 .author{
@@ -40,10 +42,9 @@ body {
   color: #303031;
   margin-top: 10px;
   font-family: arial; /* note9: added a background */
-  background-color: #6d7a87; /* note10: added a background */
+  background-color: #91a6cc; /* note10: added a background */
   margin-left: 20px; /* note 12: lined up the caption to the pic better*/
   display: inline; /* note11: made the background fit the text 8 */
-
 }
 img{
   width: 95%; /* note8: adjusted the witdth of the photo */
@@ -54,8 +55,9 @@ img{
 h1{
   font-size: 40px; /* note2: changed font sice */
   font-family: arial; /* note1: added different font */
-  padding-bottom: 10px; /* note6: added padding to the bottom*/
-  border-bottom: 2px solid #384b61; /* note7: added border */
+  padding-bottom: 20px; /* note6: added padding to the bottom*/
+  border-bottom: 2px solid #91a6cc; /* note7: added border */
+  color: #81b6aa; /* note16: changed color of text */
 }
 a{
   color: #353a40; /* note3: changed link color */
