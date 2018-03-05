@@ -17,3 +17,9 @@ body {
 .left-column p:nth-child(2){
   font-style: italic;
 }
+.caption {
+  font-size: 10px;
+  color: #777;
+  margin-top: 10px;
+  margin-bottom 10px;
+}
