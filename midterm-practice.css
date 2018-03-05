@@ -39,14 +39,14 @@ body {
 }
 img{
   width: 95%;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px; /* note4: added left padding */
+  padding-right: 30px; /* note5: added left padding */
 }
 h1{
   font-size: 40px; /* note2: changed font sice */
   font-family: arial; /* note1: added different font */
 }
 a{
-  color: #353a40;
+  color: #353a40; /* note3: changed link color */
 }
 }
