@@ -3,15 +3,18 @@
   max-width: 900px;
   margin: 0 auto;
   overflow: auto;
+  padding: 20px;
 }
 @media(min-width: 550px) {
 .left-column{
   float: left;
-  width: 25%
+  width: 25%;
+  padding: 3px;
 }
 .right-column{
     width: 75%;
     float: right;
+    padding: 3px;
   }
 body {
   background-color: #6d7a87;
