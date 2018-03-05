@@ -1,5 +1,8 @@
 .container {
   background-color: #848;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: auto;
 }
 
 body {
