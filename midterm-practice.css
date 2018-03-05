@@ -57,7 +57,8 @@ h1{
   font-family: arial; /* note1: added different font */
   padding-bottom: 20px; /* note6: added padding to the bottom*/
   border-bottom: 2px solid #91a6cc; /* note7: added border */
-  color: #81b6aa; /* note16: changed color of text */
+  color: #666; /* note16: changed color of text */
+  letter-spacing: 3px; /* note17: added spacing */
 }
 a{
   color: #353a40; /* note3: changed link color */
