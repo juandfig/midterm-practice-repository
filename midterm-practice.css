@@ -45,7 +45,7 @@ body {
   background-color: #91a6cc; /* note10: added a background */
   margin-left: 20px; /* note 12: lined up the caption to the pic better*/
   display: inline; /* note11: made the background fit the text 8 */
-  text-align: center; /* note18: aligned text to center */
+    font-weight: 600; /* note19: made the font bolder */
 }
 img{
   width: 95%; /* note8: adjusted the witdth of the photo */
