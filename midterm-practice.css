@@ -43,7 +43,10 @@ img{
   padding-right: 30px;
 }
 h1{
-  font-size: 40px;
-  font-family: arial;
+  font-size: 40px; /* note2: changed font sice */
+  font-family: arial; /* note1: added different font */
+}
+a{
+  color: #353a40;
 }
 }
