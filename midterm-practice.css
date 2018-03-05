@@ -4,12 +4,14 @@
   margin: 0 auto;
   overflow: auto;
   padding: 20px;
+  box-shadow: 2px 4px 10px 4px #91a6cc; /* Note12: added a lil shadow effect */
 }
 @media(min-width: 500px) {
 .left-column{
   float: left;
   width: 25%;
-  padding-right: 100px;
+  padding-right: 0px;
+  border: 3px solid #6d7a87;
 }
 .right-column{
     width: 75%;
@@ -23,6 +25,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 15px;
+
 }
 .author{
   font-size: 17px;
@@ -30,21 +33,23 @@ body {
 }
 .left-column p:nth-child(2){
   font-style: italic;
+
 }
 .caption {
   font-size: 10px;
-  color: #484a4c;
+  color: #303031;
   margin-top: 10px;
-  margin-bottom 10px;
-  margin: auto; /* note9: placed the caption right next under the image */
+  font-family: arial; /* note9: added a background */
   background-color: #6d7a87; /* note10: added a background */
-  display: inline; /* note11: made the background fit the text 8 */ 
+  margin-left: 20px; /* note 12: lined up the caption to the pic better*/
+  display: inline; /* note11: made the background fit the text 8 */
 
 }
 img{
   width: 95%; /* note8: adjusted the witdth of the photo */
   padding-left: 20px; /* note4: added left padding */
   padding-right: 30px; /* note5: added left padding */
+  padding-bottom: 10px;
 }
 h1{
   font-size: 40px; /* note2: changed font sice */
