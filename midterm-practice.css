@@ -1,5 +1,5 @@
 .container {
-  background-color: #848;
+  background-color: #8c9cac;
   max-width: 900px;
   margin: 0 auto;
   overflow: auto;
@@ -14,7 +14,7 @@
     float: right;
   }
 body {
-  background-color: #424;
+  background-color: #6d7a87;
 }
 .left-column p{
   margin-top: 0;
