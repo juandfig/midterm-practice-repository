@@ -37,4 +37,9 @@ body {
   margin-top: 10px;
   margin-bottom 10px;
 }
+img{
+  width: 70%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 }
