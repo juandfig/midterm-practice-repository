@@ -36,9 +36,10 @@ body {
   color: #777;
   margin-top: 10px;
   margin-bottom 10px;
+  margin: auto; /* note9: placed the caption right next under the image */
 }
 img{
-  width: 95%;
+  width: 95%; /* note8: adjusted the witdth of the photo */
   padding-left: 20px; /* note4: added left padding */
   padding-right: 30px; /* note5: added left padding */
 }
