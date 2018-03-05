@@ -4,7 +4,15 @@
   margin: 0 auto;
   overflow: auto;
 }
-
+@media(min-width: 550px) {
+.left-column{
+  float: left;
+  width: 25%
+}
+.right-column{
+    width: 75%;
+    float: right;
+  }
 body {
   background-color: #424;
 }
@@ -25,4 +33,5 @@ body {
   color: #777;
   margin-top: 10px;
   margin-bottom 10px;
+}
 }
