@@ -5,16 +5,16 @@
   overflow: auto;
   padding: 20px;
 }
-@media(min-width: 550px) {
+@media(min-width: 500px) {
 .left-column{
   float: left;
   width: 25%;
-  padding: 3px;
+  padding-right: 100px;
 }
 .right-column{
     width: 75%;
     float: right;
-    padding: 3px;
+    padding-left: 20px;
   }
 body {
   background-color: #6d7a87;
@@ -33,10 +33,13 @@ body {
 }
 .caption {
   font-size: 10px;
-  color: #777;
+  color: #484a4c;
   margin-top: 10px;
   margin-bottom 10px;
   margin: auto; /* note9: placed the caption right next under the image */
+  background-color: #6d7a87; /* note10: added a background */
+  display: inline; /* note11: made the background fit the text 8 */ 
+
 }
 img{
   width: 95%; /* note8: adjusted the witdth of the photo */
