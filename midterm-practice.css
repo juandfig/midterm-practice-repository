@@ -18,6 +18,7 @@
     width: 75%;
     float: right;
     padding-left: 20px;
+
   }
 body {
   background-color: #6d7a87;
@@ -46,12 +47,14 @@ body {
   margin-left: 20px; /* note 12: lined up the caption to the pic better*/
   display: inline; /* note11: made the background fit the text 8 */
     font-weight: 600; /* note19: made the font bolder */
+
 }
 img{
   width: 95%; /* note8: adjusted the witdth of the photo */
   padding-left: 20px; /* note4: added left padding */
   padding-right: 30px; /* note5: added left padding */
   padding-bottom: 10px;
+
 }
 h1{
   font-size: 40px; /* note2: changed font sice */
@@ -63,5 +66,6 @@ h1{
 }
 a{
   color: #353a40; /* note3: changed link color */
+  cursor: crosshair; /* note20: change cursor */
 }
 }
